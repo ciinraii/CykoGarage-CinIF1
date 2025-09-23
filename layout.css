@@ -4,7 +4,7 @@
             }
   /* ini Style headernya */
         header {
-            background-image: url("banner.jpg");
+            background-image: url("Banner.jpg");
             background-repeat:no-repeat;
             background-position: center;
             background-size: cover;
@@ -105,4 +105,5 @@ nav ul ul li a:hover {
                 height: auto;
             }
         }
+
    
