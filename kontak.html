@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Contact - Cyko Garage</title>
+
+  <!-- Tema utama Cyko Garage -->
+  <link rel="stylesheet" href="layout.css">
+
+  <!-- Style form modern -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Sesuaikan layout Cyko Garage agar tidak menutupi form */
+    body {
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      display: block;
+      color: #333;
+    }
+
+    header, nav, footer {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    footer {
+      margin-top: 50px;
+    }
+
+    /* Biar form tidak terlalu mepet atas */
+    .container {
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>:: CYKO GARAGE CONTACT US ::</h1>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li>
+        <a href="#">Car Brand ▾</a>
+        <ul class="dropdown">
+          <li><a href="BMW.html">BMW</a></li>
+          <li><a href="Porsche.html">Porsche</a></li>
+          <li><a href="Ford.html">Ford</a></li>
+          <li><a href="Peugeot.html">Peugeot</a></li>
+        </ul>
+      </li>
+      <li><a href="mitra.html">Mitra</a></li>
+      <li><a href="kredit.html">Kredit Produk</a></li>
+      <li><a href="lokasi.html">Showroom Location</a></li>
+      <li><a href="kontak.html" class="active">Our Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- FORM KONTAK -->
+  <div class="container">
+    <div class="title">Get in Touch</div>
+    <div class="content">
+      <form action="#" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your full name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your phone number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Subject</span>
+            <input type="text" placeholder="Enter your subject" required>
+          </div>
+          <div class="input-box" style="width:100%;">
+            <span class="details">Message</span>
+            <textarea placeholder="Write your message..." style="width:100%;height:120px;border-radius:5px;padding:10px;font-size:16px;border:1px solid #ccc;border-bottom-width:2px;resize:none;outline:none;"></textarea>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Send Message">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Copyright © 2025 by AC-IF1 | Cyko Garage</p>
+  </footer>
+
+</body>
+</html>
